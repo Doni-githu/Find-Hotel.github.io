@@ -1,0 +1,757 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+@font-face {
+     font-family: Montserrat;
+     src: url(./static/Montserrat-Medium.ttf);
+}
+
+p {
+     font-family: Montserrat;
+}
+
+.yozuv_block p {
+     width: 100%;
+     height: 150px;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 54px;
+     line-height: 59px;
+     text-align: center;
+     color: #262729;
+     text-align: center;
+}
+
+.barcha_1_2_3 {
+     width: 100%;
+     margin: 0 auto;
+     height: 18vh;
+     display: flex;
+     justify-content: center;
+     gap: 70px;
+     /* display: grid;
+     grid-template-columns: 8% 8% 8%;
+     justify-content: center; */
+}
+
+.one {
+     position: relative;
+     width: 60px;
+     height: 60px;
+     border: 3px solid #2A90D9;
+     border-radius: 50%;
+     color: #2A90D9;
+     z-index: 2;
+}
+
+.one p {
+     position: absolute;
+     left: 35%;
+     top: 13%;
+     font-size: 36px;
+     font-weight: 700;
+     font-family: Montserrat;
+}
+
+.one:hover {
+     background-color: #2A90D9;
+     color: white;
+}
+
+.two {
+     position: relative;
+     width: 60px;
+     height: 60px;
+     border: 3px solid #2A90D9;
+     border-radius: 50%;
+     z-index: 2;
+     color: #2A90D9;
+}
+
+.two p {
+     position: absolute;
+     left: 34%;
+     top: 13%;
+     font-size: 36px;
+     font-weight: 700;
+     font-family: Montserrat;
+}
+
+.two:hover {
+     background-color: #2A90D9;
+     color: white;
+}
+
+.three {
+     position: relative;
+     width: 60px;
+     height: 60px;
+     border: 3px solid #2A90D9;
+     border-radius: 50%;
+     z-index: 2;
+     color: #2A90D9;
+}
+
+.three p {
+     position: absolute;
+     left: 33%;
+     top: 15%;
+     font-size: 36px;
+     font-weight: 700;
+     font-family: Montserrat;
+}
+
+.three:hover {
+     background-color: #2A90D9;
+     color: white;
+}
+
+.container {
+     width: 55%;
+     margin: 0 auto;
+     background: #FFFFFF;
+     border: 1px solid #E7E6EB;
+     border-radius: 12px;
+}
+
+.rasm_yozuvlar {
+     width: 90%;
+     height: auto;
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: center;
+     margin: 0 auto;
+}
+
+.left {
+     width: 90%;
+     display: flex;
+     justify-content: center;
+}
+
+.left img {
+     width: 370px;
+     height: 355px;
+     object-fit: contain;
+     object-position: center;
+}
+
+.right {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+}
+
+.yozuv p {
+     height: 15vh;
+     font-weight: 600;
+     font-size: 40px;
+     line-height: 89px;
+     text-align: center;
+}
+
+.yozuv_2 p {
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 22px;
+     line-height: 27px;
+}
+
+.icon_block {
+     height: 8vh;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     justify-content: space-between;
+}
+
+.card_2 {
+     width: 100%;
+     gap: 13px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.card_2 p {
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14.7px;
+     line-height: 24px;
+     color: #858585;
+}
+
+.one-qator p {
+     height: 5.6vh;
+     font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 24px;
+     color: #262729;
+}
+
+#three_p {
+     height: 6.5vh;
+}
+
+#five_p {
+     height: 6.3vh;
+}
+
+.boshqalar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.two-qator p {
+     width: 190px;
+     height: 2vh;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     color: #262729;
+}
+
+#two_one_p {
+     line-height: 40px;
+     width: 100%;
+}
+
+#two_five_p {
+     /* height: 4.6vh; */
+     /* font-weight: 400;
+     font-size: 18px;
+     line-height: 14px; */
+     color: #EE685F;
+}
+
+#two_two_p {
+     /* line-height: 20px; */
+}
+
+.two-qator img {
+     margin-bottom: 18px;
+}
+
+#two_three_p {
+     /* height: 6.7vh; */
+}
+
+#two_six_p {
+     /* font-size: 18px;
+     line-height: 30px; */
+     color: #2A90D9;
+}
+
+#two_seven_p {
+     /* line-height: 30px; */
+     color: #2A90D9;
+}
+
+#two_eight_p {
+     /* font-family: 'Montserrat';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 35px; */
+     color: #2A90D9;
+}
+
+#four_p {
+     /* font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 24px; */
+     color: #2A90D9;
+}
+
+.button {
+     height: 15vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.button button {
+     width: 35%;
+     height: 7.6vh;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 20px;
+     color: #FFFFFF;
+     background: #EE685F;
+     border-radius: 10px;
+     border: none;
+}
+
+.button button:hover {
+     background-color: #ed594e;
+     font-size: 18px;
+}
+
+@media (max-width: 2000px) {
+     .two-qator p {
+          width: 190px;
+          height: 6vh;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          color: #262729;
+     }
+
+     .boshqalar {
+          display: grid;
+          grid-template-columns: auto auto;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+     }
+
+     #two_six_p {
+          line-height: 33px;
+     }
+}
+
+@media (max-width: 1460px) {
+     .yozuv_2 p {
+          font-size: 18px;
+          line-height: 27px;
+     }
+
+     .icon_block {
+          width: 90%;
+          height: 8vh;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          justify-content: center;
+          gap: 20px;
+     }
+
+     .card_2 p {
+          font-size: 10px;
+          line-height: 24px;
+          color: #858585;
+     }
+
+     .boshqalar {
+          display: flex;
+          justify-content: space-evenly;
+          gap: 20px;
+          align-items: center;
+     }
+
+     .one-qator p {
+          height: 5.6vh;
+          font-size: 14px;
+          line-height: 24px;
+     }
+
+     .two-qator p {
+          font-size: 14px;
+     }
+
+     #two_six_p {
+          line-height: 33px;
+     }
+
+}
+
+@media (max-width: 1402px) {
+     .container {
+          height: 92vh;
+     }
+
+     .one-qator p {
+          font-size: 10px;
+     }
+
+     .two-qator p {
+          font-size: 10px;
+     }
+
+     #four_p {
+          line-height: 35px;
+     }
+
+     #two_two_p {
+          line-height: 32px;
+     }
+
+     .icon_block {
+          width: 90%;
+          height: 15vh;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     #three_card {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+     }
+
+     .one-qator p {
+          height: 5vh;
+     }
+
+     .two-qator p {
+          height: 5.6vh;
+     }
+}
+
+@media (max-width: 1339px) {
+     .container {
+          width: 60%;
+          height: 138vh;
+
+     }
+
+     .rasm_yozuvlar {
+          width: 100%;
+          display: grid;
+          grid-template-columns: auto;
+          justify-content: center;
+          margin: 0 auto;
+     }
+
+     .left {
+          width: 90%;
+          height: 62vh;
+          margin: 0 auto;
+     }
+
+     .left img {
+          width: 120%;
+          height: 60vh;
+     }
+
+     .right {
+          display: flex;
+          justify-content: center;
+     }
+
+     .yozuv p {
+          height: 12vh;
+          font-weight: 600;
+          font-size: 40px;
+          line-height: 89px;
+          text-align: center;
+     }
+
+     .yozuv_2 p {
+          font-size: 26px;
+          text-align: center;
+          margin: 0 20px;
+          line-height: 27px;
+     }
+
+     .icon_block {
+          width: 100%;
+          height: 15vh;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .card_2 p {
+          width: 100%;
+          font-size: 15px;
+     }
+
+     .icon_block {
+          height: 8vh;
+     }
+
+     .boshqalar {
+          width: 80%;
+          display: grid;
+          grid-template-columns: auto auto;
+          justify-content: space-around;
+          gap: 10px;
+          height: 40vh;
+          margin: 0 auto;
+     }
+
+     .one-qator {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     .one-qator p {
+          width: 100%;
+          font-size: 20px;
+          height: 5vh;
+     }
+
+     #three_p {
+          height: 4.3vh;
+     }
+
+     .two-qator {
+          width: 100%;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-direction: column;
+     }
+
+     #two_one_p {
+          line-height: 37px;
+     }
+
+     .two-qator p {
+          width: 100%;
+          font-size: 20px;
+          height: 5.2vh;
+          line-height: 32px;
+     }
+
+     #four_p {
+          line-height: 20px;
+     }
+
+     #two_five_p {
+          line-height: 13px;
+     }
+
+     #two_seven_p {
+          line-height: 30px;
+     }
+
+     #two_eight_p {
+          line-height: 25px;
+     }
+}
+
+@media (max-width: 1050px) {
+     .yozuv p {
+          height: 16vh;
+     }
+
+     .container {
+          width: 60%;
+     }
+
+     .left {
+          height: 48vh;
+     }
+
+     .left img {
+          height: 45vh;
+     }
+
+     .two-qator p {
+          font-size: 16px;
+          font-weight: 600;
+     }
+}
+
+@media (max-width: 870px) {
+     .container {
+          width: 85%;
+     }
+
+     .left {
+          height: 55vh;
+     }
+
+     .left img {
+          height: 50vh;
+     }
+}
+
+@media (max-width: 700px) {
+     .container {
+          width: 85%;
+          height: 130vh;
+     }
+
+     .left {
+          height: 50vh;
+     }
+
+     .left img {
+          width: 130%;
+          height: 46vh;
+     }
+
+     .one-qator p {
+          font-size: 18px;
+     }
+
+     #two_five_p {
+          width: 100%;
+          font-size: 15px;
+     }
+
+     .two-qator p {
+          width: 100%;
+          font-size: 18px;
+     }
+
+     .yozuv_2 p {
+          font-size: 25px;
+          text-align: center;
+          margin: 0 20px;
+          line-height: 37px;
+     }
+}
+
+@media (max-width: 510px) {
+     .container {
+          width: 90%;
+          height: 145vh;
+     }
+
+     .one-qator p {
+          font-weight: 600;
+          font-size: 16px;
+     }
+
+     .two-qator p {
+          font-size: 16px;
+          font-weight: 600;
+     }
+
+     .icon_block {
+          height: 20vh;
+          display: grid;
+          grid-template-columns: auto;
+          justify-content: space-around;
+     }
+
+     .button button {
+          height: 6.5vh;
+     }
+}
+
+@media (max-width: 309px) {
+     .left img {
+          height: 35vh;
+     }
+}
+
+@media (max-width: 420px) {
+     .container {
+          width: 95%;
+     }
+
+     .boshqalar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          margin: 0 50px;
+     }
+
+     #two_five_p {
+          font-size: 13px;
+     }
+
+     .left {
+          height: 50vh;
+     }
+
+     .left img {
+          height: 35vh;
+     }
+
+     .one-qator p {
+          font-size: 13px;
+     }
+
+     .two-qator p {
+          font-size: 13px;
+     }
+
+     .icon_block img {
+          width: 18px;
+     }
+
+     .icon_block p {
+          font-size: 13px;
+     }
+}
+
+@media (max-width: 414px) {
+     .left img {
+          height: 35vh;
+     }
+
+     .left {
+          height: 38vh;
+     }
+}
+
+@media (max-width: 370px) {
+     .container {
+          width: 95%;
+          height: 135vh;
+     }
+
+     .barcha_1_2_3 {
+          display: grid;
+          grid-template-columns: 12% 12% 12%;
+          justify-content: center;
+     }
+
+     .yozuv p {
+          font-size: 25px;
+     }
+
+     .left {
+          height: 40vh;
+     }
+
+     .icon_block {
+          height: 22vh;
+     }
+
+     .left img {
+          width: 110%;
+          height: 35vh;
+     }
+
+     .yozuv_2 p {
+          font-size: 16px;
+     }
+
+     .boshqalar {
+          margin: 0 40px;
+          display: flex;
+          gap: 20px;
+     }
+
+     .one-qator p {
+          font-size: 10px;
+     }
+
+     .two-qator p {
+          font-size: 10px;
+     }
+
+     #two_five_p {
+          font-size: 10px;
+     }
+
+     .button button {
+          font-size: 14px;
+     }
+}

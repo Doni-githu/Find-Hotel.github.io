@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "m_light";
+  src: url(../last_minute_deals-main/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "m_medium";
+  src: url(./static/Montserrat-Medium.ttf);
+}
+.conteiner {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  height: auto;
+  flex-direction: column;
+}
+.conteiner > .navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  top: 0;
+  margin-top: 17px;
+  margin-bottom: 12px;
+  font-family: "m_medium";
+}
+.conteiner > .navbar > nav {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.conteiner > .navbar > nav > .link {
+  text-decoration: none;
+  color: #262729;
+  font-weight: 500;
+  font-size: 16px;
+}
+.conteiner > .navbar > .btns {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.conteiner > .navbar > .btns > .money {
+  color: #EE685F;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 1px dashed #EE685F;
+  text-decoration: none;
+  font-family: "m_medium";
+}
+.conteiner > .navbar > .btns > .select > button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #EE685F;
+  border: none;
+  background-color: #fff;
+  border-bottom: 1px dashed #EE685F;
+  font-family: "m_medium";
+}
+.conteiner > .navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+.conteiner > .navbar2 > .logo_btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.conteiner > .navbar2 > .logo_btn > button {
+  border: none;
+  background-color: #fff;
+  width: 32px;
+  height: 25px;
+}
+.conteiner > .navbar2 > .links {
+  position: absolute;
+  top: 80px;
+  left: -3%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  overflow: hidden;
+}
+.conteiner > .navbar2 > .links > .btns {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.conteiner > .navbar2 > .links > .btns > .money {
+  color: #EE685F;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 1px dashed #EE685F;
+  text-decoration: none;
+  font-family: "m_medium";
+}
+.conteiner > .navbar2 > .links > .btns > .select > button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #EE685F;
+  border: none;
+  background-color: #fff;
+  border-bottom: 1px dashed #EE685F;
+  font-family: "m_medium";
+}
+.conteiner > .navbar2 > .links > ul {
+  height: 176px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.conteiner > .navbar2 > .links > ul > li {
+  list-style: none;
+}
+.conteiner > .navbar2 > .links > ul > li > a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1A1A1A;
+  font-family: "m_medium";
+}
+
+@media only screen and (max-width: 873px) {
+  .conteiner > .navbar {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  .conteiner > .navbar2 {
+    width: 90%;
+    height: 60px;
+    overflow: visible;
+  }
+}/*# sourceMappingURL=style31.css.map */

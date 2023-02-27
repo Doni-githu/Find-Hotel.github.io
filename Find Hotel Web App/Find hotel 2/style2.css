@@ -1,0 +1,346 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+@font-face {
+     font-family: Montserrat;
+     src: url(./static/Montserrat-Medium.ttf);
+}
+p{
+     font-family: Montserrat;
+}
+.yozuv_block p {
+     width: 100%;
+     height: 150px;
+     font-family: Montserrat;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 54px;
+     line-height: 59px;
+     text-align: center;
+     color: #262729;
+     text-align: center;
+}
+.barcha_1_2_3 {
+     width: 100%;
+     height: 18vh;
+     display: flex;
+     justify-content: center;
+     gap: 70px;
+}
+.one {
+     position: relative;
+     width: 65px;
+     height: 65px;
+     border: 3px solid #2A90D9;
+     border-radius: 50%;
+     color: #2A90D9;
+     z-index: 2;
+}
+
+.one p {
+     position: absolute;
+     left: 35%;
+     top: 13%;
+     font-size: 36px;
+     font-weight: 700;
+     font-family: Montserrat;
+}
+
+.one:hover {
+     background-color: #2A90D9;
+     color: white;
+}
+
+.two {
+     position: relative;
+     width: 65px;
+     height: 65px;
+     border: 3px solid #2A90D9;
+     border-radius: 50%;
+     z-index: 2;
+     color: #2A90D9;
+}
+
+.two p {
+     position: absolute;
+     left: 34%;
+     top: 13%;
+     font-size: 36px;
+     font-weight: 700;
+     font-family: Montserrat;
+}
+.two:hover {
+     background-color: #2A90D9;
+     color: white;
+}
+.three {
+     position: relative;
+     width: 65px;
+     height: 65px;
+     border: 3px solid #2A90D9;
+     border-radius: 50%;
+     z-index: 2;
+     color: #2A90D9;
+}
+.three p {
+     position: absolute;
+     left: 33%;
+     top: 15%;
+     font-size: 36px;
+     font-weight: 700;
+     font-family: Montserrat;
+}
+.three:hover {
+     background-color: #2A90D9;
+     color: white;
+}
+.container{
+     width: 55%;
+     height: 88.5vh;
+     margin: 0 auto;
+     background: #FFFFFF;
+     border: 1px solid #E7E6EB;
+     border-radius: 12px;
+}
+.yozuv p {
+     height: 15vh;
+     font-weight: 600;
+     font-size: 40px;
+     line-height: 89px;
+     text-align: center;
+}
+.katta_input p{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #262729e5;
+     padding-left: 27px;
+     padding-bottom: 8px;
+}
+.katta_input input{
+     width: 93%;    
+     margin: 0 28px;
+     height: 7vh;
+     font-size: 20px;
+     padding-left: 20px;
+     background: #FFFFFF;
+     border: 1px solid #D6D6D6;
+     border-radius: 10px;
+}
+.katta_input input:focus{
+     outline: none;
+}
+
+input{
+     height: 7vh;
+     font-size: 20px;
+     padding-left: 20px;
+     background: #FFFFFF;
+     border: 1px solid #D6D6D6;
+     border-radius: 10px;
+}
+input:focus{
+     outline: none;
+}
+.ikkitasi{
+     width: 95%;
+     height: 18vh;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.email{
+     width: 48%;
+     display: grid;
+}
+.email p{
+     line-height: 35px;
+}
+.ikkita p{
+     color: #262729e5;
+}
+.phone{
+     width: 48%;
+     display: grid;
+}
+.phone p{
+     line-height: 35px;
+}
+.oxirgi input{
+     padding-bottom: 140px;
+     width: 93%;
+     height: 25vh;
+     margin: 0 30px;
+}
+.oxirgi p{
+     line-height: 30px;
+     padding-left: 30px;
+     color: #2627299c;
+}
+.button{
+     height: 15vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.button button{
+     width: 35%;
+     height: 7.6vh;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 20px;
+     color: #FFFFFF;
+     background: #EE685F;
+     border-radius: 10px;
+     border: none;
+}
+.button button:hover{
+     background-color: #ed594e;
+     font-size: 18px;
+}
+@media (max-width: 1300px) {
+     .container{
+          width: 60%;
+          height: 85vh;
+     }
+}
+@media (max-width: 1220px) {
+     .container{
+          width: 65%;
+          height: 85vh;
+     }
+}
+@media (max-width: 1100px) {
+     .container{
+          width: 65%;
+          height: 85vh;
+     }
+}
+@media (max-width: 1060px) {
+     .katta_input input{
+          margin-left: 21px;
+     }
+     .container{
+          height: 86vh;
+     }
+     .oxirgi input{
+          margin: 0 20px;
+          font-size: 17px;
+     }
+     .email input{
+          font-size: 17px;
+     }
+     .phone input{
+          font-size: 17px;
+     }
+}
+@media (max-width: 1000px) {
+     .container{
+          width: 70%;
+          height: 97vh;
+     }
+     .yozuv p {
+          height: 15vh;
+          font-weight: 600;
+          font-size: 30px;
+     
+     }
+     .katta_input{
+          height: 13.5vh;
+     }
+     .ikkitasi{
+          width: 100%;
+          height: 25vh;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+     }
+     .email{
+          width: 93%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column
+     }
+     .email input{
+          font-size: 20px;
+     }
+     .phone{
+          width: 93%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column
+     }
+     .phone input{
+          font-size: 20px;
+     }
+}
+@media (max-width: 830px) {
+     .container{
+          width: 75%;
+          height: 95vh;
+     }
+}
+@media (max-width: 720px) {
+     .container{
+          width: 83%;
+          height: 93vh;
+     }
+
+}
+@media (max-width: 610px) {
+     .container{
+          width: 90%;
+          height: 95vh;
+     }
+}
+@media (max-width: 510px) {
+     .container{
+          width: 95%;
+          height: 96vh;
+     }
+     .yozuv p {
+          height: 12vh;
+          font-weight: 600;
+          font-size: 25px;
+     }
+     .katta_input input{
+          margin: 0 16px;
+     }
+     .oxirgi input{
+          margin: 0 16px;
+     }
+}
+@media (max-width: 420px) {
+     .katta_input input{
+          margin: 0 13px;
+     }
+     .oxirgi input{
+          margin: 0 13px;
+     }
+     .oxirgi p{
+          line-height: 20px;
+          padding-left: 20px;
+          color: #2627299c;
+          margin: 20px 0px;
+     }
+     .katta_input p{
+          padding-left: 17px;
+     }
+}
+@media (max-width: 360px) {
+     .yozuv p{
+          font-size: 21px;
+     }
+     .katta_input input{
+          margin: 0 12px;
+     }
+     .barcha_1_2_3{
+          display: grid;
+          grid-template-columns: 12% 12% 12%;
+          justify-content: center;
+     }
+}

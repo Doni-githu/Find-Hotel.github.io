@@ -1,0 +1,41 @@
+[
+    {
+        "id":1,
+        "src": "./main-master/img/img1.png",
+        "title": "Wilderness Club at Big Ceddar",
+        "combined": "2 Bedroom Combined Lodge",
+        "when": "28 October — 1 November",
+        "price": "$2016",
+        "day": "/6 night",
+        "bed": "4 Beds",
+        "people": "8 ",
+        "arrows": "1,350",
+        "rating": "4.8"
+    },
+    {
+        "id":2,
+        "src": "./main-master/img/img2.png",
+        "title": "Wilderness Club at Big Ceddar",
+        "combined": "2 Bedroom Combined Lodge",
+        "when": "28 October — 1 November",
+        "price": "$2016",
+        "day": "/6 night",
+        "bed": "4 Beds",
+        "people": "8 ",
+        "arrows": "1,350",
+        "rating": "4.8"
+    },
+    {
+        "id":3,
+        "src": "./main-master/img/img8.png",
+        "title": "Wilderness Club at Big Ceddar",
+        "combined": "2 Bedroom Combined Lodge",
+        "when": "28 October — 1 November",
+        "price": "$2016",
+        "day": "/6 night",
+        "bed": "4 Beds",
+        "people": "8 ",
+        "arrows": "1,350",
+        "rating": "4.8"
+    }
+]
